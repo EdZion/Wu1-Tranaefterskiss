@@ -1,0 +1,37 @@
+main{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin:auto;
+  width: 80%;
+}
+section{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+header{
+    text-align: center;
+}
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    margin: auto;
+    width: 80%;
+  }
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+.content {
+    padding: 16px;
+}
+h1{
+    padding-top: 2em;
+}
